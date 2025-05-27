@@ -5,14 +5,19 @@ import ServicePromos from "@/components/ServicePromos.vue";
 <template>
   <UPage>
     <AppHeader />
-    <UPageHeader
-      title="Promotions"
-      description=" Take advantage of our limited-time offers and keep your vehicle in top
-          condition. Subscribe! To be notified of our seasonal deals!"
-      class="p-15"
-    >
-      <SubscribeButton class="pt-5" />
-    </UPageHeader>
+
+    <!-- Header Section -->
+    <header class="text-white py-16 px-6">
+      <div class="pl-6">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 pb-5">Promotions</h1>
+        <p class="text-xl text-gray-100 max-w-xl">
+          Take advantage of our limited-time offers and keep your vehicle in top
+          condition. Subscribe! To be notified of our seasonal deals!
+        </p>
+      </div>
+      <SubscribeButton class="pt-5 pl-6" />
+    </header>
+
     <ServicePromos />
   </UPage>
 </template>

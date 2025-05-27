@@ -11,6 +11,11 @@
 
 <script>
 import AppFooter from "./components/AppFooter.vue";
+export default {
+  component: {
+    AppFooter,
+  },
+};
 </script>
 
 <style scoped></style>

@@ -179,7 +179,6 @@ import {
   X as XIcon,
   ChevronDown as ChevronDownIcon,
   Wrench as WrenchIcon,
-  Phone as PhoneIcon,
   Settings as SettingsIcon,
   Tag as TagIcon,
   Cog as CogIcon,
