@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <UApp>
+      <Analytics mode="production" />
+      <Analytics debug="true" />
       <RouterView />
       <AppFooter />
     </UApp>
@@ -8,7 +10,7 @@
 </template>
 
 <script>
-import AppFooter from "./components/AppFooter.vue";
+import { Analytics } from "@vercel/analytics/vue";
 </script>
 
 <style scoped></style>
