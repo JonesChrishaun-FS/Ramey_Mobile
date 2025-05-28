@@ -3,6 +3,7 @@
     <UApp>
       <UMain>
         <RouterView />
+        <Analytics />
       </UMain>
       <AppFooter />
     </UApp>
@@ -11,6 +12,8 @@
 
 <script>
 import AppFooter from "./components/AppFooter.vue";
+import { Analytics } from "@vercel/analytics/next";
+
 export default {
   component: {
     AppFooter,
