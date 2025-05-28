@@ -1,6 +1,6 @@
 <template>
   <USeparator color="secondary" size="xl" />
-  <UFooter class="bg-gray-900 text-gray-300">
+  <div class="bg-gray-900 text-gray-300" :style="footerBottom">
     <div class="container px-4 py-12">
       <!-- Main footer content -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -118,10 +118,13 @@
         </div>
       </div>
     </div>
-  </UFooter>
+  </div>
 </template>
 
 <script setup>
+const footerBottom = {
+  marginBottom: "0px",
+};
 // No additional script needed for this component
 </script>
 

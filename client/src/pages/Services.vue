@@ -3,8 +3,6 @@ import AutoService from "@/components/AutoService.vue";
 </script>
 
 <template>
-  <UPage>
-    <AppHeader />
-    <AutoService />
-  </UPage>
+  <AppHeader />
+  <AutoService />
 </template>

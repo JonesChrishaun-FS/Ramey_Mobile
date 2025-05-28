@@ -116,7 +116,7 @@ const watchPopup = () => {
 
 // Watch for popup changes
 import { watch, onUnmounted } from "vue";
-
+import { isTuesday } from "../../../server/node_modules/date-fns/fp/isTuesday";
 watch(showPopup, watchPopup);
 
 onUnmounted(() => {
