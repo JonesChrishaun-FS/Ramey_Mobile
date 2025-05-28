@@ -1,14 +1,5 @@
 <script setup>
 import BlogPost from "@/components/BlogPost.vue";
-import WDRBMEDIA from "@/images/WDRBMEDIA.png";
-
-const links = [
-  {
-    label: "WDRBMEDIA LISTEN LIVE 24/7 ",
-
-    to: "https://ice24.securenetsystems.net/WDRB",
-  },
-];
 </script>
 
 <template>

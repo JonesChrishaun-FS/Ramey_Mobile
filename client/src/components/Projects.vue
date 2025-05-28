@@ -125,7 +125,7 @@ const openProjectDetails = (project) => {
   <div>
     <!-- Header Section -->
     <header class="text-white py-16 px-6">
-      <div class="max-w-6xl mx-auto">
+      <div class="lg:pl-10 sm:pl-2">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">Our Auto Projects</h1>
         <p class="text-xl text-gray-100 max-w-2xl">
           Explore our portfolio of custom auto repairs, restorations, and

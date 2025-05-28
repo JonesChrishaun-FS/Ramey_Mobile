@@ -6,7 +6,7 @@ import ServicePromos from "@/components/ServicePromos.vue";
   <AppHeader />
   <!-- Header Section -->
   <header class="text-white py-16 px-6">
-    <div class="pl-10">
+    <div class="lg:pl-10 sm:pl-2">
       <h1 class="text-4xl md:text-5xl font-bold mb-4 pb-5">Promotions</h1>
       <p class="text-xl text-gray-100 max-w-xl">
         Take advantage of our limited-time offers and keep your vehicle in top
