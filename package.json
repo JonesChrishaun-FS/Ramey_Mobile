@@ -1,0 +1,29 @@
+{
+  "name": "ramey_mobile",
+  "version": "1.0.0",
+  "description": "This repository is used for my Project & Portfolio activity. I will use it to keep track of research, development, and experimentation conducted.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "cd api; nodemon server.js",
+    "install-api": "npm install --prefix api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonesChrishaun-FS/Ramey_Mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JonesChrishaun-FS/Ramey_Mobile/issues"
+  },
+  "homepage": "https://github.com/JonesChrishaun-FS/Ramey_Mobile#readme",
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  }
+}
