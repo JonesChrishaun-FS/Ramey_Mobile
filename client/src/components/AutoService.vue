@@ -428,17 +428,19 @@ export default {
               <div class="grid gap-2 text-sm">
                 <div>
                   <span class="text-gray-600">Date:</span>
-                  <span class="font-medium ml-1">{{
+                  <span class="font-medium ml-1 text-gray-600">{{
                     formatDate(contactForm.date)
                   }}</span>
                 </div>
                 <div>
                   <span class="text-gray-600">Time:</span>
-                  <span class="font-medium ml-1">{{ contactForm.time }}</span>
+                  <span class="font-medium ml-1 text-gray-600">{{
+                    contactForm.time
+                  }}</span>
                 </div>
                 <div>
                   <span class="text-gray-600">Vehicle:</span>
-                  <span class="font-medium ml-1"
+                  <span class="font-medium ml-1 text-gray-600"
                     >{{ contactForm.year }}
                     {{ contactForm.make }}
                     {{ contactForm.model }}</span
@@ -469,7 +471,7 @@ export default {
                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
                   ></path>
                 </svg>
-                <span>(980) 223-2781</span>
+                <span class="text-gray-600">(980) 223-2781</span>
               </div>
               <div class="flex items-center gap-2">
                 <svg
@@ -489,7 +491,9 @@ export default {
                   ></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                <span>1110 Freedom Drive, Statesville, NC 28652</span>
+                <span class="text-gray-600"
+                  >1110 Freedom Drive, Statesville, NC 28652</span
+                >
               </div>
             </div>
           </div>
