@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <UApp>
-      <Analytics mode="production" />
-      <Analytics debug="true" />
+      <Analytics mode="production" debug="true" />
+
       <RouterView />
       <AppFooter />
     </UApp>
