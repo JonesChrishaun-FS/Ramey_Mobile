@@ -25,8 +25,10 @@ app.use(express.json());
 app.use("/api", contactRoutes);
 app.use("/api", subscribeRoutes);
 
-app.get("/", (req, res) => {
-  res.send("Auto Repair Contact API is running");
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
 });
 
 //Connecting server
