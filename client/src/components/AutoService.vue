@@ -667,7 +667,7 @@ const showSuccess = ref(false);
 const showContactModal = ref(false);
 const contactSubmitted = ref(false);
 const errors = ref({});
-const apiBaseUrl = "https://ramey-mobile.vercel.app/api";
+const apiBaseUrl = "http://localhost:8000/api";
 
 // Current date and year for validation
 const currentYear = new Date().getFullYear();
