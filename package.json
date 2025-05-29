@@ -4,7 +4,8 @@
   "description": "This repository is used for my Project & Portfolio activity. I will use it to keep track of research, development, and experimentation conducted.",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs",
+    "proxy": "http://localhost:8000"
   },
   "scripts": {
     "install-client": "npm install --prefix client",
