@@ -25,12 +25,6 @@ app.use(express.json());
 app.use("/api", contactRoutes);
 app.use("/api", subscribeRoutes);
 
-app.use(express.static(path.join(__dirname, "../client/build")));
-
-app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build", "index.html"));
-});
-
 //Connecting server
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);
