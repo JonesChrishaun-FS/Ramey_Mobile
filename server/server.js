@@ -7,7 +7,7 @@ import { subscribeRoutes } from "./app/routes/subscribeRoutes.js";
 import connectDB from "./app/db/config.js";
 
 //Adding PORT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 const app = express();
 
