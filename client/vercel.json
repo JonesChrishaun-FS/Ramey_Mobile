@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/contact", "destination": "/api/contact", "statusCode": 301 }
+  ]
+}
