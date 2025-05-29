@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "api": "cd api; nodemon server.js",
-    "install-api": "npm install --prefix api"
+    "server": "cd server; nodemon server.js",
+    "install-server": "npm install --prefix server"
   },
   "repository": {
     "type": "git",
