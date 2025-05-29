@@ -28,6 +28,9 @@ export default defineConfig({
       },
     }),
   ],
+  server: {
+    port: process.env.PORT,
+  },
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
