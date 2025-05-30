@@ -4,8 +4,6 @@
 
 # Ramsey's Mobile
 
-# 📌 Purpose
-
 Small-owned mobile company that repairs cars and wants to reach out to more customers within the surrounding areas they can travel to. Sell affordable parts online. Allow potential clients to inform the company of what repair they require. Inform users of the promotions that the company provides seasonally.
 
 <br>
@@ -18,6 +16,8 @@ Small-owned mobile company that repairs cars and wants to reach out to more cust
 | Frontend         |   Vue.js   |
 | Database         |  MongoDB   |
 | Environment Vars |  `dotenv`  |
+
+<br>
 
 # 🧠 Features
 
@@ -87,6 +87,8 @@ EMAIL_SECURE=false
 
 To retrieve the EMAIL_PASSWORD, navigate to your Google account, then select your Gmail email address, and enter your app password. You will then create a name app, and it will generate a password that you can copy and paste into your EMAIL_PASSWORD variable. Be sure to install `nodemailer`.
 
+<br>
+
 ## API Structure
 
 Method Route
@@ -103,6 +105,8 @@ POST /subscribe Create new user subscription
 
 ```
 
+<br>
+
 # 📈 Future Improvements
 
 - User authentication & roles (admin, users)
@@ -110,6 +114,8 @@ POST /subscribe Create new user subscription
 - Email alerts for services needed urgently
 
 - Show recent services that were submitted
+
+<br>
 
 # 👨‍💼 Target Audience
 
