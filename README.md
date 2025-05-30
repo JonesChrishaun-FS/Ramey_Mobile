@@ -92,9 +92,12 @@ To retrieve the EMAIL_PASSWORD, navigate to your Google account, then select you
 Method Route
 
 ```
+* Contact Form
 
 POST /contact Create a new contact form
 GET /recent-contacts Fetch recently submitted service orders
+
+* Subscribe Button/Form
 
 POST /subscribe Create new user subscription
 
@@ -111,6 +114,6 @@ POST /subscribe Create new user subscription
 # 👨‍💼 Target Audience
 
 - Client needing restoration or modification for a specific car
-- 18+ | Male or Female | Low Income (Has a car and needing affordable services)
+- 18+ | Male or Female | Low Income (Has a car and wanting affordable services)
 
 🧑‍💻 Developed by Chrishaun Jones
