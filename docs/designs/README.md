@@ -11,8 +11,3 @@ Add links to your design work here.
 - Additional Links...
 
 <br>
-
-# Log ...🚀
-
-Date: [ 12/25/24 ]  
-Update: [ I went back to make the buttons clickable and navigate to their designated pages. I added components to give a visual on what would happen if a user was to click on a button. When I try to present to see if the interactions are working and for the home page it does not show the buttons needed to lead to the other pages.]
