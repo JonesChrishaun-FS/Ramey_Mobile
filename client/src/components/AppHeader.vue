@@ -113,7 +113,7 @@
           >
             <div class="flex items-center">
               <a
-                href="/promos&deals"
+                href="/projects"
                 class="block py-2 px-4 hover:bg-gray-600 rounded transition-colors flex items-center"
               >
                 <ClipboardIcon class="h-5 w-5 mr-3" />
