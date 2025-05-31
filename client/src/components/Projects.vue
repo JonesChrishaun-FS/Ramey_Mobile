@@ -248,17 +248,23 @@ const openProjectDetails = (project) => {
             class="w-full h-auto rounded-lg mb-6 pb-10"
           />
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-            <div class="bg-blue-600 p-4 rounded-lg">
-              <p class="text-sm text-orange-400 mb-1">Category</p>
-              <p class="font-medium">{{ selectedProject.category }}</p>
+            <div class="bg-blue-100 p-4 rounded-lg">
+              <p class="text-sm text-gray-800 mb-1">Category</p>
+              <p class="font-medium text-orange-600">
+                {{ selectedProject.category }}
+              </p>
             </div>
-            <div class="bg-blue-600 p-4 rounded-lg">
-              <p class="text-sm text-orange-400 mb-1">Completion Time</p>
-              <p class="font-medium">{{ selectedProject.completionTime }}</p>
+            <div class="bg-blue-100 p-4 rounded-lg">
+              <p class="text-sm text-gray-800 mb-1">Completion Time</p>
+              <p class="font-medium text-orange-600">
+                {{ selectedProject.completionTime }}
+              </p>
             </div>
-            <div class="bg-blue-600 p-4 rounded-lg">
-              <p class="text-sm text-orange-400 mb-1">Client</p>
-              <p class="font-medium">{{ selectedProject.client }}</p>
+            <div class="bg-blue-100 p-4 rounded-lg">
+              <p class="text-sm text-gray-800 mb-1">Client</p>
+              <p class="font-medium text-orange-600">
+                {{ selectedProject.client }}
+              </p>
             </div>
           </div>
           <div>

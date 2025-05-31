@@ -6,6 +6,7 @@ import BrakePads from "@/images/brake-disc.png";
 import Mustang from "@/images/Ford Mustang.jpg";
 import Subaru from "@/images/Subaru.jpeg";
 import ContactPopUp from "./ContactPopUp.vue";
+import SideBar from "./SideBar.vue";
 
 // Sample data for services
 const services = [
@@ -106,8 +107,8 @@ export default {
 <template>
   <div class="p-8">
     <!-- Main Content -->
-
-    <article class="rounded-lg w-full">
+    <SideBar />
+    <article class="rounded-lg w-full" id="blog">
       <!-- Blog Post Content -->
       <div class="pt-5">
         <!-- Services Section -->
@@ -293,13 +294,28 @@ export default {
       <ContactPopUp />
     </div>
   </div>
+  <BackTopBTN />
 </template>
 <style>
 div {
   margin-bottom: 15px;
 }
+
 h2 {
   color: azure;
   font-weight: 800;
+}
+
+@media (max-width: 1024px) {
+  #blog {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 768px) {
+  #blog {
+    visibility: hidden;
+    display: none;
+  }
 }
 </style>
