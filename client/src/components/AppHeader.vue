@@ -174,6 +174,7 @@
 
 <script setup>
 import { ref, reactive } from "vue";
+import BackTopBTN from "./BackTopBTN.vue";
 import {
   Menu as MenuIcon,
   X as XIcon,
