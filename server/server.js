@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import morgan from "morgan";
 import cors from "cors";
+import bodyParser from "body-parser";
 import { contactRoutes } from "./app/routes/contactRoutes.js";
 import { subscribeRoutes } from "./app/routes/subscribeRoutes.js";
 import connectDB from "./app/db/config.js";
@@ -18,6 +19,7 @@ connectDB();
 
 //Response data to return json
 app.use(cors());
+app.use(bodyParser.json());
 app.use(morgan("dev"));
 
 // Routes
