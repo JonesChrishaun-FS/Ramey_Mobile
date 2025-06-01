@@ -667,7 +667,7 @@ const showSuccess = ref(false);
 const showContactModal = ref(false);
 const contactSubmitted = ref(false);
 const errors = ref({});
-const apiBaseUrl = `${process.env.MONGODB_URI}api/contact/`;
+const apiBaseUrl = "api/contact/";
 
 // Current date and year for validation
 const currentYear = new Date().getFullYear();

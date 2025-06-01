@@ -71,7 +71,7 @@ In the .env file:
 
 ```
 
-env
+
 PORT= ENTER_YOUR_PORT_HERE
 MONGODB_URI= YOUR_MONGO_URI_HERE
 
