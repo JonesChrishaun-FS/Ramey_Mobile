@@ -25,6 +25,15 @@ app.use(express.json());
 app.use("/api", contactRoutes);
 app.use("/api", subscribeRoutes);
 
+// Handle production
+if (process.env.NODE_ENV === "production") {
+  // Static folder
+  app.use(express.static(__dirname + "/public/"));
+
+  // Handle SPA
+  app.get(/.*/, (req, res) => res.sendFile(__dirname + "/public/index.html"));
+}
+
 //Connecting server
 app.listen(PORT, () => {
   console.log(`Server running on ${PORT}`);

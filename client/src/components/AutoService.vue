@@ -667,7 +667,7 @@ const showSuccess = ref(false);
 const showContactModal = ref(false);
 const contactSubmitted = ref(false);
 const errors = ref({});
-const apiBaseUrl = "/api";
+const apiBaseUrl = "api/contact/";
 
 // Current date and year for validation
 const currentYear = new Date().getFullYear();
@@ -751,7 +751,7 @@ const submitContactForm = async () => {
     isSubmitting.value = true;
     contactSubmitted.value = true;
 
-    const response = await fetch(`${apiBaseUrl}/contact`, {
+    const response = await fetch(`${apiBaseUrl}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
