@@ -513,6 +513,8 @@ export default {
 <script setup>
 import { ref, computed, reactive } from "vue";
 import { Phone } from "lucide-vue-next";
+import dotenv from "dotenv";
+dotenv.config();
 
 // Sample data for auto repair services
 const services = ref([
@@ -667,7 +669,7 @@ const showSuccess = ref(false);
 const showContactModal = ref(false);
 const contactSubmitted = ref(false);
 const errors = ref({});
-const apiBaseUrl = "api/contact/";
+const apiBaseUrl = `${process.env.MONGODB_URI}api/contact/`;
 
 // Current date and year for validation
 const currentYear = new Date().getFullYear();
