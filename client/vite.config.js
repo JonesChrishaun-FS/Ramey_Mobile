@@ -3,6 +3,9 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 import ui from "@nuxt/ui/vite";
 import vueDevTools from "vite-plugin-vue-devtools";
+import path from "path";
+import dotenv from "dotenv";
+dotenv.config();
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -34,6 +37,14 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+    },
+  },
+  outputDir: path.resolve(__dirname, "../server/public"),
+  devServer: {
+    proxy: {
+      "/api": {
+        target: process.env.MONGODB_URI,
+      },
     },
   },
 });
