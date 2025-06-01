@@ -39,7 +39,7 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  outputDir: path.resolve(__dirname, "../server/public"),
+  outputDir: path.resolve(__dirname, "../server/dist"),
   devServer: {
     proxy: {
       "/api": {
