@@ -1,5 +1,5 @@
 import { Subscriber } from "../models/subscriber.js";
-import messages from "../../messages/messages.js";
+import messages from "../../../../server/messages/messages.js";
 import nodemailer from "nodemailer";
 import dotenv from "dotenv";
 

@@ -1,6 +1,6 @@
 import { ContactForm } from "../models/contactForm.js";
-import messages from "../../messages/messages.js";
-import { sendContactFormEmail } from "../../utils/emailService.js";
+import messages from "../../../../server/messages/messages.js";
+import { sendContactFormEmail } from "../../../../server/utils/emailService.js";
 
 export const submitContactForm = async (req, res) => {
   try {
