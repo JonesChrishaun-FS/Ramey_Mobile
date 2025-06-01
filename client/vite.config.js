@@ -40,10 +40,12 @@ export default defineConfig({
     },
   },
   outputDir: path.resolve(__dirname, "../server"),
-  devServer: {
+  server: {
     proxy: {
       "/api": {
         target: process.env.MONGODB_URI,
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/proxy/, ""),
       },
     },
   },
