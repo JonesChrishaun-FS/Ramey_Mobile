@@ -11,6 +11,7 @@ A Vercel project. If you don't have one, you can create a new project.
 The Vercel CLI installed. If you don't have it, you can install it using the following command:
 
 ```
+
 npm i -g vercel
 
 ```
@@ -22,6 +23,7 @@ On the Vercel dashboard, select your Project and then click the Analytics tab an
 ### Add @vercel/analytics to your project
 
 ```
+
 npm i @vercel/analytics
 
 ```
@@ -29,6 +31,7 @@ npm i @vercel/analytics
 ### Add the Analytics component to your app
 
 ```
+
 <script setup>
 import { Analytics } from '@vercel/analytics/vue';
 </script>
